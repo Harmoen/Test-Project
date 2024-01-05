@@ -13,6 +13,7 @@ offset_bottom = 111.0
 color = Color(0.313726, 0.509804, 0.286275, 1)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="ColorRect"]
+layout_mode = 0
 offset_left = 16.0
 offset_top = 10.0
 offset_right = 317.0
@@ -20,3 +21,20 @@ offset_bottom = 147.0
 theme = SubResource("Theme_v2ner")
 text = " Hello!!!
 -Harmoen"
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 203.0
+offset_top = 42.0
+offset_right = 333.0
+offset_bottom = 111.0
+color = Color(0.568627, 0.266667, 0.839216, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect2"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 317.0
+offset_bottom = 147.0
+theme = SubResource("Theme_v2ner")
+text = "Yo!
+- 3quil1brium"
